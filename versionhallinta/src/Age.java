@@ -24,6 +24,22 @@ public class Age {
             else if (ika == 100) {
                 System.out.println("***~~~~~***\nDude you old man\n***~~~~~***");
             }
+
+            
+            
+            else if (ika >= 58 && ika < 65) {
+                System.out.println("Eikö työnteko maita? Have you tried *varhaiseläke*?");
+            }
+
+            else if (ika >= 65) {
+               if (ika == 65) {
+                    System.out.println("Hyvejä eläkettä");
+                }
+                else {
+                    System.out.println("Olet eläkeläinen");
+                }
+            }
+ 
        
     }
 }
