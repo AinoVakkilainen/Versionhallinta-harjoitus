@@ -16,6 +16,14 @@ public class Age {
                 System.out.println(" & kevytmoottoripyörää");
                 }
             }
+
+            else if (ika == 18) {
+                System.out.println("Onneksi olkoon täysi-ikäisyydestä! Voit nyt hankkia ajokortin!");
+            }
+
+            else if (ika == 100) {
+                System.out.println("***~~~~~***\nDude you old man\n***~~~~~***");
+            }
        
     }
 }
